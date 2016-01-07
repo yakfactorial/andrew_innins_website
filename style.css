@@ -1,0 +1,80 @@
+/****************
+BACKGROUND IMAGE
+****************/
+html {
+	background:url("images/mic_1_resize.jpg") no-repeat center center;
+  min-height: 100%;
+	background-size:cover;
+  background-attachment: fixed;
+}
+
+body {
+	min-height:100%;
+}
+/****************
+BODY (GENERAL SPECS) AND ELEMENTS WITHIN (MORE SPECIFIC)
+****************/
+div.main_content {
+  margin: 15%;
+  background-color: #F2F2F2;
+  opacity: 1;
+  filter: alpha(opacity=60);
+  border-radius: 25px;
+}
+
+body {
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
+
+#nav_container {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+   padding: 5px;
+   color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#KOOOM_widget {
+	float: left;
+	margin: 5px 15px 5% 5px;
+}
+
+#Glass_photo {
+	float: right;
+	margin: 5px 5px 5% 15px;
+}
+
+.podcast_embed {
+	display: inline-block;
+}
+
+/****************
+FOOTER
+****************/
+
+img.social-icon {
+  width: 35px;
+  height: 35px;
+  margin: 10% 5px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
